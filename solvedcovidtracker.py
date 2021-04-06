@@ -26,7 +26,7 @@ print ('we are now going to update you on the coronavirus stats in the world and
 #fetching Data - TotalDeaths TotalConfirmed TotalRecovered Date #ActiveCases - not available for this api
 
 
-response = requests.get("https://api.covid19api.com/summary")
+response = requests.get("https://api.covid19api.com/***")
 all = json.loads(response.text)
 covid_stats = all.items()
 
